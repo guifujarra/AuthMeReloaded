@@ -193,7 +193,7 @@ public class CommandInitializer {
         // Register the register command
         CommandDescription.builder()
             .parent(authmeBase)
-            .labels("register", "reg", "r")
+            .labels("register", "reg", "r", "registrar")
             .description("Register a player")
             .detailedDescription("Register the specified player with the specified password.")
             .withArgument("player", "Player name", MANDATORY)
@@ -216,7 +216,7 @@ public class CommandInitializer {
         // Register the forcelogin command
         CommandDescription.builder()
             .parent(authmeBase)
-            .labels("forcelogin", "login")
+            .labels("forcelogin", "login", "logar")
             .description("Enforce login player")
             .detailedDescription("Enforce the specified player to login.")
             .withArgument("player", "Online player name", OPTIONAL)
