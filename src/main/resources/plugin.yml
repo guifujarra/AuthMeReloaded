@@ -27,6 +27,7 @@ commands:
     usage: /login <password>
     aliases:
     - l
+    - logar
     - log
   logout:
     description: Logout command
@@ -36,6 +37,7 @@ commands:
     usage: /register [password] [verifyPassword]
     aliases:
     - reg
+    - registrar
   unregister:
     description: Unregister an account
     usage: /unregister <password>
