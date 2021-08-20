@@ -216,7 +216,7 @@ public class CommandInitializer {
         // Register the forcelogin command
         CommandDescription.builder()
             .parent(authmeBase)
-            .labels("forcelogin", "login", "logar")
+            .labels("forcelogin", "login")
             .description("Enforce login player")
             .detailedDescription("Enforce the specified player to login.")
             .withArgument("player", "Online player name", OPTIONAL)
