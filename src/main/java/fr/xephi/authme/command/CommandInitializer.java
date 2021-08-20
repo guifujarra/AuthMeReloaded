@@ -91,7 +91,7 @@ public class CommandInitializer {
         // Register the base login command
         CommandDescription loginBase = CommandDescription.builder()
             .parent(null)
-            .labels("login", "l", "log")
+            .labels("login", "l", "log", "logar")
             .description("Login command")
             .detailedDescription("Command to log in using AuthMeReloaded.")
             .withArgument("password", "Login password", MANDATORY)
@@ -112,7 +112,7 @@ public class CommandInitializer {
         // Register the base register command
         CommandDescription registerBase = CommandDescription.builder()
             .parent(null)
-            .labels("register", "reg")
+            .labels("register", "reg", "registrar")
             .description("Register an account")
             .detailedDescription("Command to register using AuthMeReloaded.")
             .withArgument("password", "Password", OPTIONAL)
